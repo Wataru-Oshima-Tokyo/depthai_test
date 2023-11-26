@@ -34,7 +34,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'depthai_camera_node = depthai_test.depthai_camera_node:main'
+            'depthai_camera_node = depthai_test.depthai_camera_node:main',
+            'spatial_object_node = depthai_test.spatial_object_node:main'
         ],
     },
 )
